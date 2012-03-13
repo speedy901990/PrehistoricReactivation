@@ -29,7 +29,7 @@ private float playerX=240;
 	public void init(GameContainer container) throws SlickException {
 		container.setVSync(true);
 		SpriteSheet sheet = new SpriteSheet("data/pic/chlop.png", 32, 64);
-		map = new BlockMap("data/map/map2.tmx");
+		map = new BlockMap("data/map/map1.tmx");
 		player = new Animation();
 		player.setAutoUpdate(false);
         for (int frame=0;frame<1;frame++) {
