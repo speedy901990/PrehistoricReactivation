@@ -45,7 +45,19 @@ private float playerX=240;
     
     @Override
 	public void update(GameContainer container, int delta) throws SlickException {
-		if (container.getInput().isKeyDown(Input.KEY_LEFT)) {
+		getUserInput(container);
+	}
+ 
+    @Override
+	public void render(GameContainer container, Graphics g)  {
+		BlockMap.tmap.render(0, 0);
+		g.drawAnimation(player, playerX, playerY);
+		//g.draw(playerPoly);
+ 
+	}
+    
+    public void getUserInput(GameContainer container) throws SlickException {
+        if (container.getInput().isKeyDown(Input.KEY_LEFT)) {
 			playerX-=2;
 			playerPoly.setX(playerX);
 			if (entityCollisionWith()){
@@ -82,9 +94,9 @@ private float playerX=240;
         if (container.getInput().isKeyDown(Input.KEY_ESCAPE)){
             container.exit();
         }
-	}
- 
-	public boolean entityCollisionWith() throws SlickException {
+    }
+    
+    public boolean entityCollisionWith() throws SlickException {
 		for (int i = 0; i < BlockMap.entities.size(); i++) {
 			Block entity1 = (Block) BlockMap.entities.get(i);
 			if (playerPoly.intersects(entity1.poly)) {
@@ -92,14 +104,6 @@ private float playerX=240;
 			}       
 		}       
 		return false;
-	}
- 
-    @Override
-	public void render(GameContainer container, Graphics g)  {
-		BlockMap.tmap.render(0, 0);
-		g.drawAnimation(player, playerX, playerY);
-		g.draw(playerPoly);
- 
 	}
  
 	public static void main(String[] argv) throws SlickException {
