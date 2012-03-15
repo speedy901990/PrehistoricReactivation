@@ -53,6 +53,7 @@ private float playerX=240;
 		BlockMap.tmap.render(0, 0);
 		g.drawAnimation(player, playerX, playerY);
 		//g.draw(playerPoly);
+                //testline
  
 	}
     
