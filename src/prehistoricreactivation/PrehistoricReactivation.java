@@ -20,7 +20,6 @@ private float playerX=240;
 	private Animation player;
     private Polygon playerPoly;
 	public BlockMap map;
-   
 	public PrehistoricReactivation() {
 		super("Prehistoric Reactivation");
 	}
@@ -75,18 +74,16 @@ private float playerX=240;
 				playerPoly.setX(playerX);
 			}
 		}
-		if (container.getInput().isKeyDown(Input.KEY_UP)) {
- 
-			playerY-=6;
-			playerPoly.setY(playerY);
-			if (entityCollisionWith()){
-				playerY+=6;
-				playerPoly.setY(playerY);
-			}
-                        container.sleep(1000);
-                        playerY+=6;
-                        
-		}
+                
+                if (container.getInput().isKeyDown(Input.KEY_UP)) {
+                        playerY-=2;
+                        playerPoly.setY(playerY);
+                        if (entityCollisionWith()){
+                                playerY+=2;
+                                playerPoly.setY(playerY);
+                        }                       
+                }
+
 		if (container.getInput().isKeyDown(Input.KEY_DOWN)) {
 			playerY+=2;
 			playerPoly.setY(playerY);
