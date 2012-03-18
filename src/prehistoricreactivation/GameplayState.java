@@ -66,9 +66,7 @@ public class GameplayState extends BasicGameState{
     
     @Override
     public void render(GameContainer gc, StateBasedGame sb, Graphics g) throws SlickException {
-        
-        
-        
+
         BlockMap.tmap.render(0, 0);
         g.drawAnimation(player, playerX, playerY);
         //g.draw(playerPoly);
