@@ -16,7 +16,7 @@ import org.newdawn.slick.geom.Polygon;
  */
 public class PrehistoricReactivation extends BasicGame{
 private float playerX=240;
-	private float playerY=140;
+	private float playerY=530;
 	private Animation player;
     private Polygon playerPoly;
 	public BlockMap map;
