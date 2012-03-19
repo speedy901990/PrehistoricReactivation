@@ -23,10 +23,12 @@ import org.newdawn.slick.state.StateBasedGame;
 public class GameplayState extends BasicGameState{
     
     private float playerX=240;
-	private float playerY=140;
+	private float playerY=500;
 	private Animation player;
     private Polygon playerPoly;
 	public BlockMap map;
+        private float jump_speed;
+   private boolean jumping;
     
     private int stateId = 0;
     
@@ -108,7 +110,7 @@ public class GameplayState extends BasicGameState{
 			playerPoly.setX(playerX);
 			if (entityCollisionWith()){
 				playerX+=2;
-                playerPoly.setX(playerX);
+                                playerPoly.setX(playerX);
 			}
 		}
 		if (container.getInput().isKeyDown(Input.KEY_RIGHT)) {
@@ -120,22 +122,27 @@ public class GameplayState extends BasicGameState{
 				playerPoly.setX(playerX);
 			}
 		}
-                
-                if (container.getInput().isKeyDown(Input.KEY_UP)) {
-                        playerY-=2;
-                        playerPoly.setY(playerY);
-                        if (entityCollisionWith()){
-                                playerY+=2;
-                                playerPoly.setY(playerY);
-                        }                       
+               
+                if (container.getInput().isKeyPressed(Input.KEY_UP)) {
+                    this.jump_speed = -12;
+                    this.jumping = true;
                 }
 
+                if(this.jumping && this.jump_speed < 11) {
+                    this.jump_speed += 1;
+                    playerY = playerY + jump_speed;
+                    } else {
+                    this.jumping = false;
+                    }
+                
+                //playerY = playerY + jump_speed;
+                
 		if (container.getInput().isKeyDown(Input.KEY_DOWN)) {
 			playerY+=2;
 			playerPoly.setY(playerY);
 			if (entityCollisionWith()){
 				playerY-=2;                
-                playerPoly.setY(playerY);
+                                playerPoly.setY(playerY);
 			}
 		}
         if (container.getInput().isKeyDown(Input.KEY_ESCAPE)){
