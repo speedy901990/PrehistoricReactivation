@@ -42,6 +42,7 @@ public class MainMenuState extends BasicGameState{
         return stateID;
     }
     
+    @Override
     public void init(GameContainer arg0, StateBasedGame arg1) throws SlickException {
         background = new Image("data/pic/menu.jpg");
  
@@ -63,6 +64,7 @@ public class MainMenuState extends BasicGameState{
         //highscores = Highscores.getInstance();
     }
     
+    @Override
     public void render(GameContainer arg0, StateBasedGame arg1, Graphics arg2) throws SlickException {
         // render the background
         background.draw(0, 0);
