@@ -32,7 +32,9 @@ public class PrehistoricReactivation extends StateBasedGame{
     
     public static void main(String[] argv) throws SlickException {
             AppGameContainer container = 
-                    new AppGameContainer(new PrehistoricReactivation(), 800, 600, false);
+                    //new AppGameContainer(new PrehistoricReactivation(), 800, 600, false);
+                    new AppGameContainer(new PrehistoricReactivation(), 1366, 768, true);
+
             
             container.start();
     }

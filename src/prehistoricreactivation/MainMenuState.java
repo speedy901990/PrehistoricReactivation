@@ -22,8 +22,8 @@ public class MainMenuState extends BasicGameState{
  
     Highscores highscores = null;
  
-    private static int menuX = 410;
-    private static int menuY = 160;
+    private static int menuX = 200;
+    private static int menuY = 260;
  
     float startGameScale = 1;
     float exitScale = 1;
@@ -90,6 +90,7 @@ public class MainMenuState extends BasicGameState{
     
     float scaleStep = 0.0001f;
  
+    @Override
     public void update(GameContainer gc, StateBasedGame sb, int delta) throws SlickException{
         Input input = gc.getInput();
  
