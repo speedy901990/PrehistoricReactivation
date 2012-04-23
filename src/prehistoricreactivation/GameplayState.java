@@ -18,6 +18,11 @@ public class GameplayState extends BasicGameState {
 
     private float playerX = 240;
     private float playerY = 530;
+    private int framesCount = 2;
+    private int playerWidth = 32;
+    private int playerHeight = 64;
+    private int positionChange = 2;
+    private int gravity = 3;
     private Animation playerLeft, playerRight;
     private Polygon playerPoly;
     public BlockMap map;
@@ -27,9 +32,9 @@ public class GameplayState extends BasicGameState {
     private int stateId = 0;
     private SIDE currentSide = SIDE.RIGHT;
     TrueTypeFont trueTypeFont = null;
-    TrueTypeFont trueTypeFont2= null;
+    TrueTypeFont trueTypeFont2 = null;
     int actualScore;
-    int [] diamondsPerMap;
+    int[] diamondsPerMap;
     int mapIndex;
     int mapCount = 2;
 
@@ -37,10 +42,11 @@ public class GameplayState extends BasicGameState {
 
         START_GAME_STATE, PAUSE_GAME_STATE, HIGHSCORE_STATE, GAME_OVER_STATE
     }
-    private enum SIDE{
+
+    private enum SIDE {
+
         LEFT, RIGHT
     }
-    
     private STATES currentState = null;
 
     public GameplayState(int stateId) {
@@ -51,10 +57,10 @@ public class GameplayState extends BasicGameState {
     public int getID() {
         return stateId;
     }
-    
+
     @Override
     public void init(GameContainer container, StateBasedGame sb) throws SlickException {
-        container.setVSync(true);        
+        container.setVSync(true);
         map = new BlockMap("data/map/map1.tmx");
         SpriteSheet sheetLeft = loadCharacter('l');
         SpriteSheet sheetRight = loadCharacter('r');
@@ -62,42 +68,47 @@ public class GameplayState extends BasicGameState {
         playerRight = new Animation();
         playerLeft.setAutoUpdate(false);
         playerRight.setAutoUpdate(false);
-        
-        for (int frame = 0; frame < 2; frame++) 
+
+        for (int frame = 0; frame < framesCount; frame++) {
             playerLeft.addFrame(sheetLeft.getSprite(frame, 0), 150);
-        for (int frame = 0; frame < 2; frame++) 
+        }
+        for (int frame = 0; frame < framesCount; frame++) {
             playerRight.addFrame(sheetRight.getSprite(frame, 0), 150);
-        
+        }
+
         playerPoly = new Polygon(new float[]{
                     playerX, playerY,
-                    playerX + 32, playerY,
-                    playerX + 32, playerY + 64,
-                    playerX, playerY + 64
+                    playerX + playerWidth, playerY,
+                    playerX + playerWidth, playerY + playerHeight,
+                    playerX, playerY + playerHeight
                 });
-        
+
         //generating array of diamond images
         diamondsPic = new ArrayList<Image>();
-        for (int i=0 ; i<BlockMap.diamonds.size() ; i++)
+        for (int i = 0; i < BlockMap.diamonds.size(); i++) {
             diamondsPic.add(new Image("data/pic/diamond.png"));
-        
+        }
+
         diamondsPerMap = new int[mapCount];
         diamondsPerMap[0] = BlockMap.diamonds.size();
-        
+
         java.awt.Font font = new java.awt.Font("Verdana", java.awt.Font.BOLD, 20);
         trueTypeFont = new TrueTypeFont(font, true);
     }
-    
+
     @Override
     public void render(GameContainer gc, StateBasedGame sb, Graphics g) throws SlickException {
         BlockMap.tmap.render(0, 0);
-        if (currentSide == SIDE.RIGHT)
+        if (currentSide == SIDE.RIGHT) {
             g.drawAnimation(playerRight, playerX, playerY);
-        else
+        } else {
             g.drawAnimation(playerLeft, playerX, playerY);
+        }
 
         //drawing actual scores
-        trueTypeFont.drawString(650, 10, "SCORE: " + actualScore , Color.white);
-        
+        int scorePosX = 650, scorePosY = 10;
+        trueTypeFont.drawString(scorePosX, scorePosY, "SCORE: " + actualScore, Color.white);
+
         drawDiamonds();
     }
 
@@ -116,7 +127,7 @@ public class GameplayState extends BasicGameState {
                 sb.enterState(PrehistoricReactivation.MAINMENUSTATE);
                 break;
         }
-        
+
         loadNextMap(isMapFinnished(container, sb));
     }
 
@@ -126,57 +137,59 @@ public class GameplayState extends BasicGameState {
 
         currentState = STATES.START_GAME_STATE;
     }
-    
+
     private SpriteSheet loadCharacter(char side) throws SlickException {
         if (side == 'r') {
             if (MainMenuState.actualCharacterIndex == 0) {
-                return new SpriteSheet("data/pic/chlop1Right.png", 32, 64);
+                return new SpriteSheet("data/pic/chlop1Right.png", playerWidth, playerHeight);
             } else if (MainMenuState.actualCharacterIndex == 1) {
-                return new SpriteSheet("data/pic/chlop2Right.png", 32, 64);
+                return new SpriteSheet("data/pic/chlop2Right.png", playerWidth, playerHeight);
             } else if (MainMenuState.actualCharacterIndex == 2) {
-                return new SpriteSheet("data/pic/chlop3Right.png", 32, 64);
+                return new SpriteSheet("data/pic/chlop3Right.png", playerWidth, playerHeight);
             }
         }
-       if (side == 'l'){
-           if (MainMenuState.actualCharacterIndex == 0) {
-               return new SpriteSheet("data/pic/chlop1Left.png", 32, 64);
+        if (side == 'l') {
+            if (MainMenuState.actualCharacterIndex == 0) {
+                return new SpriteSheet("data/pic/chlop1Left.png", playerWidth, playerHeight);
             } else if (MainMenuState.actualCharacterIndex == 1) {
-                return new SpriteSheet("data/pic/chlop2Left.png", 32, 64);
+                return new SpriteSheet("data/pic/chlop2Left.png", playerWidth, playerHeight);
             } else if (MainMenuState.actualCharacterIndex == 2) {
-                return new SpriteSheet("data/pic/chlop3Left.png", 32, 64);
-           }
-       }
-        
-        return new SpriteSheet("data/pic/chlop1Right.png", 32, 64);
+                return new SpriteSheet("data/pic/chlop3Left.png", playerWidth, playerHeight);
+            }
+        }
+
+        return new SpriteSheet("data/pic/chlop1Right.png", playerWidth, playerHeight);
     }
 
     public void getUserInput(GameContainer container, StateBasedGame sb) throws SlickException {
         if (container.getInput().isKeyDown(Input.KEY_LEFT)) {
             playerLeft.setAutoUpdate(true);
-            playerX -= 2;
+            playerX -= positionChange;
             playerPoly.setX(playerX);
             if (entityCollisionWith()) {
-                playerX += 2;
+                playerX += positionChange;
                 playerPoly.setX(playerX);
             }
             currentSide = SIDE.LEFT;
         }
         if (container.getInput().isKeyDown(Input.KEY_RIGHT)) {
             playerRight.setAutoUpdate(true);
-            playerX += 2;
+            playerX += positionChange;
             playerPoly.setX(playerX);
             if (entityCollisionWith()) {
-                playerX -= 2;
+                playerX -= positionChange;
                 playerPoly.setX(playerX);
             }
             currentSide = SIDE.RIGHT;
         }
-        
-        if (!container.getInput().isKeyDown(Input.KEY_RIGHT))
+
+        if (!container.getInput().isKeyDown(Input.KEY_RIGHT)) {
             playerRight.setAutoUpdate(false);
-        
-        if ( !container.getInput().isKeyDown(Input.KEY_LEFT))
+        }
+
+        if (!container.getInput().isKeyDown(Input.KEY_LEFT)) {
             playerLeft.setAutoUpdate(false);
+        }
 
         if (container.getInput().isKeyDown(Input.KEY_UP)) {
             if (jumping == false) {
@@ -184,14 +197,14 @@ public class GameplayState extends BasicGameState {
                 jumping = true;
             }
         }
-            
+
         if (jumping && (jump_speed < 14)) {
-            jump_speed += 1;
+            jump_speed++;
             playerY += jump_speed;
             playerPoly.setY(playerY);
             while (entityCollisionWith()) {
                 playerY -= jump_speed;
-                jumping=false;
+                jumping = false;
                 playerPoly.setY(playerY);
             }
         } else {
@@ -200,15 +213,15 @@ public class GameplayState extends BasicGameState {
 
         if (!container.getInput().isKeyDown(Input.KEY_DOWN)
                 || container.getInput().isKeyDown(Input.KEY_DOWN)) {
-            playerY += 3;
+            playerY += gravity;
             playerPoly.setY(playerY);
             if (entityCollisionWith()) {
-                playerY -= 3;
+                playerY -= gravity;
                 playerPoly.setY(playerY);
                 jumping = false;
-            }
-            else
+            } else {
                 jumping = true;
+            }
         }
         if (container.getInput().isKeyDown(Input.KEY_ESCAPE)) {
             sb.enterState(PrehistoricReactivation.MAINMENUSTATE);
@@ -219,13 +232,13 @@ public class GameplayState extends BasicGameState {
         //gathering diamonds
         for (int i = 0; i < BlockMap.diamonds.size(); i++) {
             Block diamonds = (Block) BlockMap.diamonds.get(i);
-            if (playerPoly.intersects(diamonds.poly)){
+            if (playerPoly.intersects(diamonds.poly)) {
                 actualScore++;
                 BlockMap.diamonds.remove(i);
                 diamondsPic.remove(i);
             }
         }
-        
+
         //stopping at blocks
         for (int i = 0; i < BlockMap.entities.size(); i++) {
             Block walls = (Block) BlockMap.entities.get(i);
@@ -235,21 +248,21 @@ public class GameplayState extends BasicGameState {
         }
         return false;
     }
-    
-    private void drawDiamonds(){
+
+    private void drawDiamonds() {
         for (int i = 0; i < diamondsPic.size(); i++) {
             Block diamonds = (Block) BlockMap.diamonds.get(i);
             // -16 and -6 is for better placement images in space
-            diamondsPic.get(i).draw(diamonds.poly.getX()-16, diamonds.poly.getY()- 6);
+            diamondsPic.get(i).draw(diamonds.poly.getX() - 16, diamonds.poly.getY() - 6);
         }
     }
-    
+
     private boolean isMapFinnished(GameContainer container, StateBasedGame sb) throws SlickException {
-        if (actualScore >= diamondsPerMap[mapIndex]){
-            if((mapIndex + 1) >= mapCount) {
+        if (actualScore >= diamondsPerMap[mapIndex]) {
+            if ((mapIndex + 1) >= mapCount) {
                 java.awt.Font font1 = new java.awt.Font("Verdana", java.awt.Font.BOLD, 50);
                 trueTypeFont2 = new TrueTypeFont(font1, true);
-                trueTypeFont2.drawString(50, 50, "FINNISH !!!" , Color.yellow);
+                trueTypeFont2.drawString(50, 50, "FINNISH !!!", Color.yellow);
                 //container.pause();
                 sb.enterState(PrehistoricReactivation.MAINMENUSTATE);
                 //container.exit();
@@ -259,15 +272,16 @@ public class GameplayState extends BasicGameState {
         }
         return false;
     }
-    
-    private void loadNextMap(boolean next) throws SlickException{
-        if (next){
+
+    private void loadNextMap(boolean next) throws SlickException {
+        if (next) {
             actualScore = 0;
             map = new BlockMap("data/map/map2.tmx");
             diamondsPerMap[++mapIndex] = BlockMap.diamonds.size();
             diamondsPic = new ArrayList<Image>();
-            for (int i=0 ; i<BlockMap.diamonds.size() ; i++)
-                diamondsPic.add(new Image("data/pic/diamond.png")); 
+            for (int i = 0; i < BlockMap.diamonds.size(); i++) {
+                diamondsPic.add(new Image("data/pic/diamond.png"));
+            }
         }
     }
 }
