@@ -7,6 +7,7 @@ package prehistoricreactivation;
 import org.newdawn.slick.*;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
+import java.util.ArrayList;
 
 /**
  *
@@ -17,8 +18,11 @@ public class MainMenuState extends BasicGameState{
     Image background = null;
     Image startGameOption = null;
     Image exitOption = null;
+    Image [] character;
+    Image actualCharacter;
  
     int stateID = 0;
+    static int actualCharacterIndex;
  
     Highscores highscores = null;
  
@@ -45,6 +49,13 @@ public class MainMenuState extends BasicGameState{
     @Override
     public void init(GameContainer arg0, StateBasedGame arg1) throws SlickException {
         background = new Image("data/pic/menu.jpg");
+        
+        character = new Image[3];
+        character[0] = new Image("data/pic/chlop1menu.png");
+        character[1] = new Image("data/pic/chlop2menu.png");
+        character[2] = new Image("data/pic/chlop3menu.png");
+        
+        actualCharacter = character[actualCharacterIndex];
  
         // Load the menu images
         Image menuOptions = new Image("data/pic/icons.png");
@@ -68,6 +79,7 @@ public class MainMenuState extends BasicGameState{
     public void render(GameContainer arg0, StateBasedGame arg1, Graphics arg2) throws SlickException {
         // render the background
         background.draw(0, 0);
+        actualCharacter.draw(65,475);
  
         // Draw menu
         startGameOption.draw(menuX, menuY, startGameScale);
@@ -78,14 +90,14 @@ public class MainMenuState extends BasicGameState{
         int index = 1;
         int posY = 300;
  
-        //ArrayList<Integer> highScoreList = highscores.getScores();
+        ArrayList<Integer> highScoreList = new ArrayList();// = highscores.getScores();
  
-//        for(Integer score : highScoreList )
-//        {
-//            trueTypeFont.drawString(20, posY, " " + ( index < highScoreList.size() ? "0" + index : "" + index) + "  ." + score, Color.orange);
-//            index++;
-//            posY += 20;
-//        }
+        for(Integer score : highScoreList )
+        {
+            trueTypeFont.drawString(20, posY, " " + ( index < highScoreList.size() ? "0" + index : "" + index) + "  ." + score, Color.orange);
+            index++;
+            posY += 20;
+        }
     }
     
     float scaleStep = 0.0001f;
@@ -117,6 +129,7 @@ public class MainMenuState extends BasicGameState{
  
             if ( input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON) ){
   //              fx.play();
+                sb.getState(PrehistoricReactivation.GAMEPLAYSTATE).init(gc, sb);
                 sb.enterState(PrehistoricReactivation.GAMEPLAYSTATE);
             }
         }else{
@@ -134,6 +147,16 @@ public class MainMenuState extends BasicGameState{
         }else{
             if(exitScale > 1.0f)
                 exitScale -= scaleStep * delta;
+        }
+        
+        if(gc.getInput().isKeyPressed(Input.KEY_LEFT)){
+            actualCharacterIndex = Math.abs(--actualCharacterIndex) % 3;
+            actualCharacter = character[actualCharacterIndex];
+
+        }
+        if(gc.getInput().isKeyPressed(Input.KEY_RIGHT)){
+            actualCharacterIndex = Math.abs(++actualCharacterIndex) % 3;
+            actualCharacter = character[actualCharacterIndex];
         }
     }
 }
