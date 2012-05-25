@@ -2,6 +2,7 @@ package prehistoricreactivation;
 
 import java.util.ArrayList;
 import org.newdawn.slick.SlickException;
+import org.newdawn.slick.tiled.TileSet;
 import org.newdawn.slick.tiled.TiledMap;
 
 public class BlockMap {
@@ -16,10 +17,10 @@ public class BlockMap {
     private final int[] layers = {0, 1, 2, 3};
 
     public BlockMap(String ref) throws SlickException {
-        entities = new ArrayList<Block>();
-        diamonds = new ArrayList<Block>();
+        entities = new ArrayList<>();
+        diamonds = new ArrayList<>();
 
-        tmap = new TiledMap(ref, "data/map");
+        tmap = new TiledMap(ref);
         mapWidth = tmap.getWidth() * tmap.getTileWidth();
         mapHeight = tmap.getHeight() * tmap.getTileHeight();
 

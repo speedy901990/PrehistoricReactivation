@@ -23,12 +23,15 @@ public class MainMenuState extends BasicGameState {
     int stateID = 0;
     static int actualCharacterIndex;
     Highscores highscores = null;
-    private static int menuX = 200;
+    private static int menuX = 280;
     private static int menuY = 260;
-    float startGameScale = 1;
-    float exitScale = 1;
-    Sound fx = null;
-    TrueTypeFont trueTypeFont = null;
+    private float startGameScale = 1;
+    private float exitScale = 1;
+    float scaleStep = 0.001f;
+    float maxScale = 1.05f, minScale = 1.0f;
+    public Sound fx = null;
+    private TrueTypeFont trueTypeFont = null;
+    private TrueTypeFont trueTypeFont2;
 
     public MainMenuState(int stateID) {
         this.stateID = stateID;
@@ -41,31 +44,30 @@ public class MainMenuState extends BasicGameState {
 
     @Override
     public void init(GameContainer arg0, StateBasedGame arg1) throws SlickException {
-        background = new Image("data/pic/menu.jpg");
-
+        background = new Image("pic/menu.jpg"); 
         character = new Image[3];
-        character[0] = new Image("data/pic/chlop1menu.png");
-        character[1] = new Image("data/pic/chlop2menu.png");
-        character[2] = new Image("data/pic/chlop3menu.png");
+        character[0] = new Image("pic/chlop1menu.png");
+        character[1] = new Image("pic/chlop2menu.png");
+        character[2] = new Image("pic/chlop3menu.png");
 
         actualCharacter = character[actualCharacterIndex];
 
         // Load the menu images
-        Image menuOptions = new Image("data/pic/icons.png");
-        startGameOption = menuOptions.getSubImage(0, 0, 377, 71);
+        Image menuOptions = new Image("pic/icons.png");
+        startGameOption = menuOptions.getSubImage(80, 0, 310, 71);
 
-        exitOption = menuOptions.getSubImage(0, 71, 377, 71);
+        exitOption = menuOptions.getSubImage(110, 71, 200, 71);
 
         //--------------------------------------------------
 
 //        fx = new Sound("Heartbeat120.wav");
 
         //--------------------------------------------------
-
+        java.awt.Font font2 = new java.awt.Font("Veradana", java.awt.Font.BOLD, 30);
         java.awt.Font font = new java.awt.Font("Verdana", java.awt.Font.BOLD, 20);
         trueTypeFont = new TrueTypeFont(font, true);
-
-        //highscores = Highscores.getInstance();
+        trueTypeFont2 = new TrueTypeFont(font2, true);
+        highscores = Highscores.getInstance();
     }
 
     @Override
@@ -77,22 +79,21 @@ public class MainMenuState extends BasicGameState {
         // Draw menu
         startGameOption.draw(menuX, menuY, startGameScale);
 
-        exitOption.draw(menuX, menuY + 80, exitScale);
+        exitOption.draw(menuX + 30, menuY + 80, exitScale);
 
         // Draw Highscores
         int index = 1;
-        int posY = 300;
+        int posY = 250;
 
-        ArrayList<Integer> highScoreList = new ArrayList();// = highscores.getScores();
-
+        ArrayList<Integer> highScoreList = highscores.getScores();
+        
+        trueTypeFont2.drawString(20, posY-30, "HIGHSCORES:",Color.orange);
         for (Integer score : highScoreList) {
-            trueTypeFont.drawString(20, posY, " " + (index < highScoreList.size() ? "0" + index : "" + index) + "  ." + score, Color.orange);
+            trueTypeFont.drawString(20, posY, " " + (index < highScoreList.size() ? "0" + index : "" + index) + ".  " + score, Color.orange);
             index++;
             posY += 20;
         }
     }
-    float scaleStep = 0.0001f;
-    float maxScale = 1.05f, minScale = 1.0f;
 
     @Override
     public void update(GameContainer gc, StateBasedGame sb, int delta) throws SlickException {
@@ -119,7 +120,8 @@ public class MainMenuState extends BasicGameState {
 
             if (input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON)) {
                 //              fx.play();
-                sb.getState(PrehistoricReactivation.GAMEPLAYSTATE).init(gc, sb);
+                if(!GameplayState.isGameRunning())
+                    sb.getState(PrehistoricReactivation.GAMEPLAYSTATE).init(gc, sb);
                 sb.enterState(PrehistoricReactivation.GAMEPLAYSTATE);
             }
         } else {
@@ -127,7 +129,7 @@ public class MainMenuState extends BasicGameState {
                 startGameScale -= scaleStep * delta;
             }
 
-            if (input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON)) {
+            if (insideExit && input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON)) {
                 gc.exit();
             }
         }

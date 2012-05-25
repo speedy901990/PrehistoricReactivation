@@ -1,0 +1,7 @@
+
+<project name="PrehistoricGame" default="dist" basedir=".">
+    <description>
+        simple example build file
+    </description>
+    <import file="build.xml"/>
+</project>
