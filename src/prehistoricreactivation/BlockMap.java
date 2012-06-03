@@ -1,6 +1,9 @@
 package prehistoricreactivation;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import javax.mail.MessagingException;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.tiled.TileSet;
 import org.newdawn.slick.tiled.TiledMap;
@@ -16,11 +19,12 @@ public class BlockMap {
     private final int squareSize = 16;
     private final int[] layers = {0, 1, 2, 3};
 
-    public BlockMap(String ref) throws SlickException {
+    public BlockMap(String ref) throws SlickException, IOException, MessagingException {
         entities = new ArrayList<>();
         diamonds = new ArrayList<>();
 
         tmap = new TiledMap(ref);
+        SlickLogger.writeLog(BlockMap.class.getName(), Level.INFO, "Map created");
         mapWidth = tmap.getWidth() * tmap.getTileWidth();
         mapHeight = tmap.getHeight() * tmap.getTileHeight();
 

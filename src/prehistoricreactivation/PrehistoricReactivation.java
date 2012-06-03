@@ -1,5 +1,9 @@
 package prehistoricreactivation;
 
+import java.io.IOException;
+import java.util.logging.Level;
+import javax.mail.MessagingException;
+import javax.mail.NoSuchProviderException;
 import org.newdawn.slick.AppGameContainer;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.SlickException;
@@ -18,11 +22,11 @@ public class PrehistoricReactivation extends StateBasedGame {
     public static final int PAUSEGAMESTATE = 4;
     private static final int screenWidth = 1366;
     private static final int screenHeight = 768;
-     static Title gameName;
+    static Title gameName;
 
     public PrehistoricReactivation() {
         super("Prehistoric Reactivation");
-        
+
         //this.gameName.setGameName(getTitle());
         this.addState(new MainMenuState(MAINMENUSTATE));
         this.addState(new GameplayState(GAMEPLAYSTATE));
@@ -38,12 +42,13 @@ public class PrehistoricReactivation extends StateBasedGame {
         this.getState(GAMEPLAYSTATE).init(gameContainer, this);
     }
 
-    public static void main(String[] argv) throws SlickException {
+    public static void main(String[] argv) throws SlickException, NoSuchProviderException, MessagingException, IOException {
+        SlickLogger.setup();
+        
         AppGameContainer container =
                 new AppGameContainer(new PrehistoricReactivation(), 800, 600, false);
-                //new AppGameContainer(new PrehistoricReactivation(), screenWidth, screenHeight, true);
-
-
+        //new AppGameContainer(new PrehistoricReactivation(), screenWidth, screenHeight, true);
+        SlickLogger.writeLog(PrehistoricReactivation.class.getName(), Level.INFO, "Game started");
         container.start();
     }
 }

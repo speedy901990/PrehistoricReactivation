@@ -1,5 +1,8 @@
 package prehistoricreactivation;
 
+import java.io.IOException;
+import java.util.logging.Level;
+import javax.mail.MessagingException;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.geom.Polygon;
 
@@ -13,9 +16,6 @@ public class Block {
                     x + test[2], y + test[3],
                     x + test[4], y + test[5],
                     x + test[6], y + test[7],});
-    }
-
-    public void update(int delta) {
     }
 
     public void draw(Graphics g) {

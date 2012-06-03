@@ -4,9 +4,14 @@
  */
 package prehistoricreactivation;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.mail.MessagingException;
 import org.newdawn.slick.*;
 import org.newdawn.slick.geom.Polygon;
+import org.newdawn.slick.Image;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 
@@ -43,10 +48,14 @@ public class GameplayState extends BasicGameState {
     int mapCount = 2;
     private static boolean isGameplayStateRunning = false;
     private Sound jumpSound;
+    private Sound collectSound;
+    private Sound finnishSound;
+    private Music gameplayMusic;
     private boolean isGameFinnished = false;
     private long actualTime;
     private long mapTime;
-
+    private Image danger;
+    
     
     private enum STATES {
 
@@ -70,18 +79,38 @@ public class GameplayState extends BasicGameState {
 
     @Override
     public void init(GameContainer container, StateBasedGame sb) throws SlickException {
+        // loading first map
+        try {
+            map = new BlockMap("map/map1.tmx");
+        } catch (IOException | MessagingException ex) {
+            try {
+                SlickLogger.writeLog(GameplayState.class.getName(), Level.SEVERE, "Map creating error");
+            } catch (    IOException | MessagingException ex1) {
+                Logger.getLogger(GameplayState.class.getName()).log(Level.SEVERE, null, ex1);
+            }
+        }
+        // ~!
+        
         container.setVSync(true);
-        map = new BlockMap("map/mapTEST.tmx");
-        jumpSound = new Sound("sound/jump.wav");
+        danger = new Image("pic/tablet.png");
         actualTime = System.currentTimeMillis();
+        loadSounds();
+        createFonts();
         createCharacter();
         generateDiamonds();
-        createFonts();
+        
+        // logging success init
+        try {
+            SlickLogger.writeLog(MainMenuState.class.getName(), Level.INFO, "Init passed");
+        } catch (IOException | MessagingException ex) {
+            Logger.getLogger(GameplayState.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     @Override
     public void render(GameContainer gc, StateBasedGame sb, Graphics g) throws SlickException {
         BlockMap.tmap.render(0, 0);
+        drawOtherPictures();
         animatePlayer(g);
         drawDiamonds();
         drawInterface();
@@ -90,7 +119,18 @@ public class GameplayState extends BasicGameState {
     @Override
     public void update(GameContainer container, StateBasedGame sb, int delta) throws SlickException {
         selectStateAction(container, sb);
-        loadNextMap(isMapFinnished());
+        
+        // load next map
+        try {
+            loadNextMap(isMapFinnished());
+        } catch (IOException | MessagingException ex) {
+            try {
+                SlickLogger.writeLog(GameplayState.class.getName(), Level.SEVERE, "Next map loading error");
+            } catch (    IOException | MessagingException ex1) {
+                Logger.getLogger(GameplayState.class.getName()).log(Level.SEVERE, null, ex1);
+            }
+        }
+        // ~!
     }
 
     @Override
@@ -98,6 +138,7 @@ public class GameplayState extends BasicGameState {
         super.enter(gc, sb);
         currentState = STATES.START_GAME_STATE;
         isGameplayStateRunning = true;
+        gameplayMusic.loop();
     }
 
     private SpriteSheet loadCharacter(char side) throws SlickException {
@@ -213,6 +254,7 @@ public class GameplayState extends BasicGameState {
         for (int i = 0; i < BlockMap.diamonds.size(); i++) {
             Block diamonds = (Block) BlockMap.diamonds.get(i);
             if (playerPoly.intersects(diamonds.poly)) {
+                collectSound.play();
                 actualScore++;
                 BlockMap.diamonds.remove(i);
                 diamondsPic.remove(i);
@@ -244,7 +286,7 @@ public class GameplayState extends BasicGameState {
                 countTime();
                 Highscores.getInstance().addScore(tempScore);
                 actualScore = 0;
-                
+                finnishSound.play();
                 return false;
             }
             countTime();
@@ -253,10 +295,10 @@ public class GameplayState extends BasicGameState {
         return false;
     }
 
-    private void loadNextMap(boolean next) throws SlickException {
+    private void loadNextMap(boolean next) throws SlickException, IOException, MessagingException {
         if (next) {
             actualScore = 0;
-            map = new BlockMap("map/mapTEST2.tmx");
+            map = new BlockMap("map/map2.tmx");
             diamondsPerMap[++mapIndex] = BlockMap.diamonds.size();
             diamondsPic = new ArrayList<>();
             for (int i = 0; i < BlockMap.diamonds.size(); i++) {
@@ -342,8 +384,21 @@ public class GameplayState extends BasicGameState {
                 break;
             case GAME_OVER_STATE:
                 Highscores.getInstance().addScore(tempScore);
+                gameplayMusic.stop();
                 sb.enterState(PrehistoricReactivation.MAINMENUSTATE);
                 break;
         }
+    }
+    
+    private void loadSounds() throws SlickException {
+        jumpSound = new Sound("sound/jump.wav");
+        collectSound = new Sound("sound/collect.wav");
+        gameplayMusic = new Music("sound/gameplay.ogg");
+        finnishSound = new Sound("sound/finnish.ogg");
+    }
+    
+    private void drawOtherPictures() throws SlickException{
+        if (mapIndex == 0)
+            danger.draw(685, 500, 0.25f);
     }
 }

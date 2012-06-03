@@ -4,10 +4,14 @@
  */
 package prehistoricreactivation;
 
+import java.io.IOException;
 import org.newdawn.slick.*;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.mail.MessagingException;
 
 /**
  *
@@ -29,8 +33,8 @@ public class MainMenuState extends BasicGameState {
     private float exitScale = 1;
     float scaleStep = 0.001f;
     float maxScale = 1.05f, minScale = 1.0f;
-    public Sound fx = null;
-    private TrueTypeFont trueTypeFont = null;
+    private Music menuMusic;
+    private TrueTypeFont trueTypeFont;
     private TrueTypeFont trueTypeFont2;
 
     public MainMenuState(int stateID) {
@@ -41,33 +45,56 @@ public class MainMenuState extends BasicGameState {
     public int getID() {
         return stateID;
     }
-
+    
     @Override
     public void init(GameContainer arg0, StateBasedGame arg1) throws SlickException {
         background = new Image("pic/menu.jpg"); 
         character = new Image[3];
-        character[0] = new Image("pic/chlop1menu.png");
-        character[1] = new Image("pic/chlop2menu.png");
-        character[2] = new Image("pic/chlop3menu.png");
-
+        
+        // loading character pictures
+        try {
+            character[0] = new Image("pic/chlop1menu.png");
+            character[1] = new Image("pic/chlop2menu.png");
+            character[2] = new Image("pic/chlop3menu.png");
+        } catch (Exception e) {
+            try {
+                SlickLogger.writeLog(MainMenuState.class.getName(), Level.SEVERE, "Character pictures loading error");
+            } catch (    IOException | MessagingException ex1) {
+                Logger.getLogger(MainMenuState.class.getName()).log(Level.SEVERE, null, ex1);
+            }
+        }
+        // ~!
+        
         actualCharacter = character[actualCharacterIndex];
 
+        menuMusic = new Music("sound/menu.ogg");
+        
         // Load the menu images
         Image menuOptions = new Image("pic/icons.png");
         startGameOption = menuOptions.getSubImage(80, 0, 310, 71);
 
         exitOption = menuOptions.getSubImage(110, 71, 200, 71);
 
-        //--------------------------------------------------
-
-//        fx = new Sound("Heartbeat120.wav");
-
-        //--------------------------------------------------
         java.awt.Font font2 = new java.awt.Font("Veradana", java.awt.Font.BOLD, 30);
         java.awt.Font font = new java.awt.Font("Verdana", java.awt.Font.BOLD, 20);
         trueTypeFont = new TrueTypeFont(font, true);
         trueTypeFont2 = new TrueTypeFont(font2, true);
         highscores = Highscores.getInstance();
+        
+        // logging successful
+        try {
+            SlickLogger.writeLog(MainMenuState.class.getName(), Level.INFO, "Init passed");
+        } catch (IOException ex) {
+            Logger.getLogger(MainMenuState.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (MessagingException ex) {
+            Logger.getLogger(MainMenuState.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    @Override
+    public void enter(GameContainer container, StateBasedGame game) throws SlickException {
+        super.enter(container, game);
+        menuMusic.loop();
     }
 
     @Override
@@ -119,7 +146,7 @@ public class MainMenuState extends BasicGameState {
             }
 
             if (input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON)) {
-                //              fx.play();
+                menuMusic.stop();
                 if(!GameplayState.isGameRunning())
                     sb.getState(PrehistoricReactivation.GAMEPLAYSTATE).init(gc, sb);
                 sb.enterState(PrehistoricReactivation.GAMEPLAYSTATE);
