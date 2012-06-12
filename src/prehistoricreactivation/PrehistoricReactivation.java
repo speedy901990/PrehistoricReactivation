@@ -30,8 +30,6 @@ public class PrehistoricReactivation extends StateBasedGame {
         //this.gameName.setGameName(getTitle());
         this.addState(new MainMenuState(MAINMENUSTATE));
         this.addState(new GameplayState(GAMEPLAYSTATE));
-        this.addState(new PauseGameState(PAUSEGAMESTATE));
-        this.addState(new GameOverState(GAMEOVERSTATE));
         this.enterState(MAINMENUSTATE);
     }
 

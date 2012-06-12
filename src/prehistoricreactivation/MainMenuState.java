@@ -48,6 +48,7 @@ public class MainMenuState extends BasicGameState {
     
     @Override
     public void init(GameContainer arg0, StateBasedGame arg1) throws SlickException {
+        Highscores.deserialize();
         background = new Image("pic/menu.jpg"); 
         character = new Image[3];
         
@@ -147,7 +148,7 @@ public class MainMenuState extends BasicGameState {
 
             if (input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON)) {
                 menuMusic.stop();
-                if(!GameplayState.isGameRunning())
+                if (GameplayState.isGameRunning() && GameplayState.isGameFinnished())
                     sb.getState(PrehistoricReactivation.GAMEPLAYSTATE).init(gc, sb);
                 sb.enterState(PrehistoricReactivation.GAMEPLAYSTATE);
             }
@@ -157,6 +158,7 @@ public class MainMenuState extends BasicGameState {
             }
 
             if (insideExit && input.isMouseButtonDown(Input.MOUSE_LEFT_BUTTON)) {
+                Highscores.serialize();
                 gc.exit();
             }
         }

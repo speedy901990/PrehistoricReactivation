@@ -1596,3 +1596,1929 @@ Jun 03, 2012 6:42:21 PM prehistoricreactivation.SlickLogger writeLog
 INFO: Game started
 Jun 03, 2012 6:42:24 PM prehistoricreactivation.SlickLogger writeLog
 INFO: Init passed
+Jun 11, 2012 10:05:49 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:05:50 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:05:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:05:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:05:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:05:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:05:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:05:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:06:10 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:06:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:06:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:06:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:06:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:06:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:06:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:06:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:06:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:06:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:06 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:08:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:08:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:08:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:11 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:11 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:08:11 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:08:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:38 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:08:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:08:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:08:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:08:44 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:08:46 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:08:46 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:09:30 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:09:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:09:33 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:09:33 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:09:34 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:09:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:09:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:09:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:09:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:09:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:10:51 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:10:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:10:54 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:10:54 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:10:55 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:10:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:10:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:10:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:10:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:10:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:11:54 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:11:55 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:11:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:11:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:11:59 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:11:59 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:11:59 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:12:00 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:12:00 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:12:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:26:38 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:26:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:26:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:26:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:26:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:26:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:26:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:26:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:26:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:26:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:38:20 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:38:20 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:38:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:38:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:38:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:38:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:38:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:38:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:38:26 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:38:26 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:38:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:42:07 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:42:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:42:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:42:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:42:11 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:42:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:42:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:42:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:42:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:42:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:00 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:55:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:55:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:11 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:19 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:55:19 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:55:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:26 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:37 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:55:37 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:55:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:44 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:55:44 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:55:50 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:56:04 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:56:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:56:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:56:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:56:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:56:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:56:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:56:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:56:11 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:56:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:56:48 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:57:33 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:57:33 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:57:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:57:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:57:37 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:57:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:57:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:57:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:57:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:57:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:57:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:59:30 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 10:59:31 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 10:59:34 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:59:34 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:59:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:59:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:59:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:59:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:59:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 10:59:37 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 10:59:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:00:34 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 11:00:34 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 11:00:37 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:00:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:00:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:00:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:00:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:00:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:00:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:00:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:00:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:01:01 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 11:01:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 11:01:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:01:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:01:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:01:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:01:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:01:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:01:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:01:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:01:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:06:40 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 11, 2012 11:06:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 11, 2012 11:06:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:06:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:06:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:06:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:06:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:06:45 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 11, 2012 11:06:47 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 11, 2012 11:06:47 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:10:56 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:10:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:10:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:10:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:10 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:18 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:11:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:11:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:51 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:11:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:11:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:11:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:11:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:12:07 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:14:54 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:14:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:14:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:14:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:06 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:29 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:15:29 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:15:32 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:32 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:33 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:35 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:11 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:18:12 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:18:15 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:15 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:17 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:36 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:18:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:18:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:43 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:43 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:06 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:24:07 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:24:10 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:10 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:12 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:13 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:13 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:46 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:24:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:24:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:24:53 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:04 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:25:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:25:08 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:08 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:10 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:12 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:13 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:21 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:25:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:25:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:25 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:26 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:26 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:26 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:27 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:28 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:44 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:25:44 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:25:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:25:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:26:04 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:26:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:26:07 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:26:08 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:26:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:26:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:26:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:26:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:26:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:26:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:54:32 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:54:33 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:54:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:54:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:54:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:54:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:54:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:54:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:54:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:54:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:55:23 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:55:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:55:26 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:55:26 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:55:27 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:55:28 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:55:28 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:55:28 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:55:29 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:55:30 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:56:57 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:56:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:57:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:10 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:42 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:57:42 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:57:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:58 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:57:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:58:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:34 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:58:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:58:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:03:40 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 1:03:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 1:03:44 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:03:44 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:03:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:03:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:03:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:03:46 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:07:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:07:19 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:07:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:07:58 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 1:07:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 1:08:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:08:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:08:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:08:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:08:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:08:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:08:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:08:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:08:15 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:09:58 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 1:09:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 1:10:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:17 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:34 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 1:10:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 1:10:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:10:42 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 1:10:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:09:46 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:09:46 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:09:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:09:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:09:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:09:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:09:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:09:53 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:09:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:09:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:10:53 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:10:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:10:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:10:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:10:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:10:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:10:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:10:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:11:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:11:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:11:12 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:26:56 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:26:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:26:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:26:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:27:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:27:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:27:03 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:18 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:27:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:27:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:27:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:27:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:27:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:27:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:17 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:28:17 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:28:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:23 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:24 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:35 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:28:35 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:28:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:53 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:28:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:28:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:28:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:28:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:29:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:29:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:31:55 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:31:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:31:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:31:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:31:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:31:59 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:32:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:32:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:32:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:32:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:32:33 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:47:11 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:47:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:47:14 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:47:14 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:47:15 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:47:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:47:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:47:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:47:29 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:47:29 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:49:37 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:49:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:49:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:49:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:49:42 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:49:42 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:49:42 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:49:43 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:49:44 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:49:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:50:09 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:50:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:50:12 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:50:13 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:50:14 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:50:14 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:50:14 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:50:14 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:50:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:50:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:50:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:50:43 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:53:29 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:53:30 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:53:33 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:53:33 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:53:35 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:53:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:53:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:53:43 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:53:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:55:13 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:55:13 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:55:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:55:17 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:55:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:55:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:55:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:55:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:55:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:55:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:55:26 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:58:44 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 11:58:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 11:58:48 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:58:48 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:58:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:58:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:58:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:58:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:58:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 11:58:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 11:59:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:01:48 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:01:48 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:01:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:01:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:01:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:01:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:01:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:01:53 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:01:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:01:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:02:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:02:35 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:02:35 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:02:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:02:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:02:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:02:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:02:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:02:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:02:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:02:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:02:47 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:02:53 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:04:09 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:04:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:04:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:04:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:04:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:04:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:04:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:04:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:04:16 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:04:16 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:04:19 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:04:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:13:09 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:13:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:13:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:12 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:13:13 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:13:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:13:16 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:25 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:13:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:13:28 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:29 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:13:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:13:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:13:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:47 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:14:48 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:14:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:14:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:14:53 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:14:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:14:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:15:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:15:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:17:51 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:17:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:17:55 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:17:55 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:17:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:17:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:17:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:17:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:17:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:17:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:20 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:18:20 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:18:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:25 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:18:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:18:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:20:53 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:20:54 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:20:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:20:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:20:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:20:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:20:58 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:20:59 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:21:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:21:28 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:21:47 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:21:48 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:21:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:21:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:21:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:21:53 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:21:53 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:21:53 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:24:18 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:25:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:27:05 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:27:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:27:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:27:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:27:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:27:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:27:09 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:27:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:27:17 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:27:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:27:33 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:27:33 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:30:27 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:30:27 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:30:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:30:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:30:31 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:30:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:30:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:30:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:30:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:30:42 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:30:54 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:30:55 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:31:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:31:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:34:28 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:34:28 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:34:31 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:35:04 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:35:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:35:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:37:01 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:37:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:37:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:37:19 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:37:19 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:37:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:37:29 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:37:29 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:37:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:03 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:38:03 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:38:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:38:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:38:08 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:52 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:38:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:38:55 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:38:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:38:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:38:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:39:36 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:39:36 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:39:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:39:39 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:39:40 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:39:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:39:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:39:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:40:38 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:40:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:40:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:40:41 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:40:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:40:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:40:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:40:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:40:49 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:40:49 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:41:00 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:41:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:44:02 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:44:02 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:44:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:44:05 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:44:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:44:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:44:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:44:07 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:44:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:44:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:44:20 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:44:30 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:52:15 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:52:15 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:52:18 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:52:18 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:52:19 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:52:20 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:52:20 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:52:20 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:52:27 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:52:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:54:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:54:06 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:54:10 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:54:19 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:55:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:55:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:55:26 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:55:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:56:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:56:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:19 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:57:19 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:57:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:24 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:32 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:57:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:57:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:18 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:58:18 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:58:21 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:21 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:23 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:58:29 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:38 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:58:59 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:58:59 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:59:02 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:03 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:04 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:14 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:17 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:22 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:46 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 12:59:47 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 12:59:50 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:50 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:51 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 12:59:52 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 12:59:56 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 1:00:01 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 8:26:43 PM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 12, 2012 8:26:43 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 12, 2012 8:26:47 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 8:26:48 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 8:26:49 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 8:26:49 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 8:26:49 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 8:26:50 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 12, 2012 8:26:57 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 12, 2012 8:27:03 PM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:28:04 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:28:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:28:08 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:28:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:28:10 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:28:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:28:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:28:11 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:28:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:28:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:30:11 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:31:42 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:33:40 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:46:35 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:46:35 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:46:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:46:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:46:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:46:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:46:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:46:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:34 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:49:35 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:49:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:49:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:49:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:50 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:49:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:49:53 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:49:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:49:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:49:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:16 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:51:17 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:51:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:51:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:51:22 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:36 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:51:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:51:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:51:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:51:41 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:51 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:51:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:51:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:51:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:51:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:51:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:15 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:52:15 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:52:18 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:19 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:52:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:52:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:52 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:52:53 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:52:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:52:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:52:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:52:58 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:53:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:53:09 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:53:28 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:53:29 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:53:32 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:53:33 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:53:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:53:40 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:53:52 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:54:16 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:54:16 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:54:19 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:54:19 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:54:20 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:54:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:54:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:54:21 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:55:42 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 13, 2012 12:55:43 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Game started
+Jun 13, 2012 12:55:46 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:55:46 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:55:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:55:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
+Jun 13, 2012 12:55:47 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Map created
+Jun 13, 2012 12:55:48 AM prehistoricreactivation.SlickLogger writeLog
+INFO: Init passed
