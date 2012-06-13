@@ -58,7 +58,7 @@ public class GameplayState extends BasicGameState {
     private long mapTime;
     private Image danger, danger1, danger2;
     private boolean isTrapped;
-    private int howManyTimesTrapped = 0;
+    private boolean oneTimeGameOver = false;
     private ArrayList<String> mapsList;
     
     
@@ -280,8 +280,10 @@ public class GameplayState extends BasicGameState {
         }
         
         // jumping on traps
-        if (playerX > 800 || playerX < 0 || playerY > 600 || playerY < 0)
+        if ((playerX > 800 || playerX < 0 || playerY > 600 || playerY < 0) && !isTrapped) {
             isTrapped = true;
+            oneTimeGameOver = true;
+        }
 
         // stopping move at blocks
         for (int i = 0; i < BlockMap.entities.size(); i++) {
@@ -341,7 +343,7 @@ public class GameplayState extends BasicGameState {
     private void countTime(){
         mapTime = System.currentTimeMillis();
         mapTime = (mapTime - actualTime) / 1000;
-        tempScore += ((actualScore*100)/mapTime); 
+        tempScore += ((actualScore * 100) / mapTime); 
     }
 
     private void createFonts() {
@@ -405,12 +407,12 @@ public class GameplayState extends BasicGameState {
         else if (isTrapped){
             trueTypeFont3.drawString(200, 100, "GAME OVER !!!", Color.yellow);
             isGameFinnished = true;
-            if (howManyTimesTrapped++ == 0) {
+            if (oneTimeGameOver) {
                 countTime();
                 Highscores.getInstance().addScore(tempScore);
                 actualScore = 0;
-                mapTime = 0;
-                howManyTimesTrapped--;
+                actualTime = System.currentTimeMillis();
+                oneTimeGameOver = false;
             }
         }
     }
