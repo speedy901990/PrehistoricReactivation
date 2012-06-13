@@ -19,7 +19,7 @@ public class SlickLogger {
 
     static public void setup() throws IOException {
         logger.setLevel(Level.ALL);
-        fileTxt = new FileHandler("log/logging.txt",fileSize, 1, true);
+        fileTxt = new FileHandler("logging.txt",fileSize, 1, true);
 
         // Create txt Formatter
         formatterTxt = new SimpleFormatter();
@@ -30,11 +30,12 @@ public class SlickLogger {
         logger.info("Logger created");
     }
     
-    static public void writeLog(String className, Level lvl, String text) throws IOException, MessagingException {
-        logger.log(lvl,text);
+    static public String writeLog(String className, Level lvl, String text) throws IOException, MessagingException {
+        String msg = "From Class: [" + className + "]\n" +text;
+        logger.log(lvl, msg);
         if (lvl == Level.SEVERE){
             SlickMail.send("mychaty2@gmail.com", "SlickLogger [SEVERE] " + text);
-            
         }
+        return msg;
     }
 }

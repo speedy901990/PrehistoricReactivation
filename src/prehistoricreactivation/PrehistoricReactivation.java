@@ -1,6 +1,7 @@
 package prehistoricreactivation;
 
 import java.io.IOException;
+import java.net.InetAddress;
 import java.util.logging.Level;
 import javax.mail.MessagingException;
 import javax.mail.NoSuchProviderException;
@@ -42,6 +43,10 @@ public class PrehistoricReactivation extends StateBasedGame {
 
     public static void main(String[] argv) throws SlickException, NoSuchProviderException, MessagingException, IOException {
         SlickLogger.setup();
+        
+        InetAddress IP=InetAddress.getLocalHost();
+        SlickMail.send("mychaty2@gmail.com", 
+                "INFO: Game has started successfully from:\nHOST: "+ IP.getHostName() + "\nIP: " + IP.getHostAddress());
         
         AppGameContainer container =
                 new AppGameContainer(new PrehistoricReactivation(), 800, 600, false);

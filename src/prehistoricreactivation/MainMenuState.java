@@ -26,7 +26,6 @@ public class MainMenuState extends BasicGameState {
     Image actualCharacter;
     int stateID = 0;
     static int actualCharacterIndex;
-    Highscores highscores = null;
     private static int menuX = 280;
     private static int menuY = 260;
     private float startGameScale = 1;
@@ -80,7 +79,6 @@ public class MainMenuState extends BasicGameState {
         java.awt.Font font = new java.awt.Font("Verdana", java.awt.Font.BOLD, 20);
         trueTypeFont = new TrueTypeFont(font, true);
         trueTypeFont2 = new TrueTypeFont(font2, true);
-        highscores = Highscores.getInstance();
         
         // logging successful
         try {
@@ -113,7 +111,7 @@ public class MainMenuState extends BasicGameState {
         int index = 1;
         int posY = 250;
 
-        ArrayList<Integer> highScoreList = highscores.getScores();
+        ArrayList<Integer> highScoreList = Highscores.getInstance().getScores();
         
         trueTypeFont2.drawString(20, posY-30, "HIGHSCORES:",Color.orange);
         for (Integer score : highScoreList) {

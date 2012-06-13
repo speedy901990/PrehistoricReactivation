@@ -21,8 +21,8 @@ import org.newdawn.slick.state.StateBasedGame;
  */
 public class GameplayState extends BasicGameState {
 
-    private float playerX = 240;
-    private float playerY = 525;
+    private float playerX;
+    private float playerY;
     private int framesCount = 2;
     private int playerWidth = 32;
     private int playerHeight = 64;
@@ -39,15 +39,16 @@ public class GameplayState extends BasicGameState {
     private boolean jumping;
     private int stateId = 0;
     private SIDE currentSide = SIDE.RIGHT;
-    TrueTypeFont trueTypeFont = null;
-    TrueTypeFont trueTypeFont2 = null;
-    TrueTypeFont trueTypeFont3 = null;
+    TrueTypeFont writeScore;
+    TrueTypeFont writeFinnish;
+    TrueTypeFont writeGameOver;
+    TrueTypeFont writeHint;
     TrueTypeFont fakeVarForSlowMotion;
     int actualScore;
     int tempScore;
     int[] diamondsPerMap;
     int mapIndex;
-    int mapCount = 3;
+    int mapCount = 5;
     private static boolean isGameplayStateRunning = false;
     private Sound jumpSound;
     private Sound collectSound;
@@ -56,7 +57,7 @@ public class GameplayState extends BasicGameState {
     public static boolean isGameFinnished = false;
     private long actualTime;
     private long mapTime;
-    private Image danger, danger1, danger2;
+    private Image danger;
     private boolean isTrapped;
     private boolean oneTimeGameOver = false;
     private ArrayList<String> mapsList;
@@ -87,9 +88,6 @@ public class GameplayState extends BasicGameState {
         generateMapsList();
         mapIndex = 0;
         danger = new Image("pic/tablet.png");
-        danger1 = new Image("pic/tablet.png");
-        danger2 = new Image("pic/tablet.png");
-        actualTime = System.currentTimeMillis();
         isTrapped = false;
         isGameFinnished = false;
         
@@ -99,6 +97,7 @@ public class GameplayState extends BasicGameState {
         } catch (IOException | MessagingException ex) {
             try {
                 SlickLogger.writeLog(GameplayState.class.getName(), Level.SEVERE, "Map creating error");
+                
             } catch (    IOException | MessagingException ex1) {
                 Logger.getLogger(GameplayState.class.getName()).log(Level.SEVERE, null, ex1);
             }
@@ -152,6 +151,9 @@ public class GameplayState extends BasicGameState {
         super.enter(gc, sb);
         currentState = STATES.START_GAME_STATE;
         isGameplayStateRunning = true;
+        tempScore = 0;
+        actualScore = 0;
+        actualTime = System.currentTimeMillis();
         gameplayMusic.loop();
     }
 
@@ -280,7 +282,9 @@ public class GameplayState extends BasicGameState {
         }
         
         // jumping on traps
-        if ((playerX > 800 || playerX < 0 || playerY > 600 || playerY < 0) && !isTrapped) {
+        if ((playerX > 800 || playerX < -16 || playerY > 600
+                || (mapIndex == 3 && playerX < 40 && playerY > 500 && !isMapFinnished()))
+                && !isTrapped) {
             isTrapped = true;
             oneTimeGameOver = true;
         }
@@ -348,11 +352,13 @@ public class GameplayState extends BasicGameState {
 
     private void createFonts() {
         java.awt.Font font = new java.awt.Font("Verdana", java.awt.Font.BOLD, 20);
-        trueTypeFont = new TrueTypeFont(font, true);
+        writeScore = new TrueTypeFont(font, true);
         java.awt.Font font2 = new java.awt.Font("Verdana", java.awt.Font.BOLD, 50);
-        trueTypeFont2 = new TrueTypeFont(font2, true);
+        writeFinnish = new TrueTypeFont(font2, true);
         java.awt.Font font3 = new java.awt.Font("Verdana", java.awt.Font.BOLD, 50);
-        trueTypeFont3 = new TrueTypeFont(font3, true); 
+        writeGameOver = new TrueTypeFont(font3, true); 
+        java.awt.Font font4 = new java.awt.Font("Verdana", java.awt.Font.BOLD, 16);
+        writeHint = new TrueTypeFont(font4, true);
     }
 
     private void generateDiamonds() throws SlickException {
@@ -400,12 +406,12 @@ public class GameplayState extends BasicGameState {
     }
     
     private void drawInterface(){
-        trueTypeFont.drawString(scorePosX, scorePosY, "SCORE: " + actualScore, Color.white);
+        writeScore.drawString(scorePosX, scorePosY, "SCORE: " + actualScore, Color.white);
         if (isGameFinnished && !isTrapped) {
-            trueTypeFont2.drawString(200, 100, "FINNISH !!!", Color.yellow);
+            writeFinnish.drawString(200, 100, "FINNISH !!!", Color.yellow);
         }
         else if (isTrapped){
-            trueTypeFont3.drawString(200, 100, "GAME OVER !!!", Color.yellow);
+            writeGameOver.drawString(200, 100, "GAME OVER !!!", Color.yellow);
             isGameFinnished = true;
             if (oneTimeGameOver) {
                 countTime();
@@ -414,6 +420,9 @@ public class GameplayState extends BasicGameState {
                 actualTime = System.currentTimeMillis();
                 oneTimeGameOver = false;
             }
+        }
+        if (mapIndex == 2){
+            writeHint.drawString(100, 5, "HINT: Why don't you use [SHIFT] for boost ?", Color.black);
         }
     }
     
@@ -442,7 +451,7 @@ public class GameplayState extends BasicGameState {
     }
     
     private void drawOtherPictures() throws SlickException{
-        if (mapIndex == 0){
+        if (mapIndex == 0 || mapIndex == 3){
             danger.draw(285, 500, 0.25f);
         }
         else if (mapIndex == 1){
@@ -465,6 +474,8 @@ public class GameplayState extends BasicGameState {
         mapsList.add("map/map1.tmx");
         mapsList.add("map/map2.tmx");
         mapsList.add("map/map3.tmx");
+        mapsList.add("map/map4.tmx");
+        mapsList.add("map/map5.tmx");
     }
     
     private void setPlayerStartPosition(){

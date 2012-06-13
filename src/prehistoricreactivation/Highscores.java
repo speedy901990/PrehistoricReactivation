@@ -28,7 +28,7 @@ public class Highscores implements Serializable {
     
     public static void serialize() {
         try {
-            FileOutputStream fileOut = new FileOutputStream("data/highscores.ser");
+            FileOutputStream fileOut = new FileOutputStream("highscores.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(instance);
             out.close();
@@ -40,7 +40,7 @@ public class Highscores implements Serializable {
     
     public static void deserialize() {
         try {
-            FileInputStream fileIn = new FileInputStream("data/highscores.ser");
+            FileInputStream fileIn = new FileInputStream("highscores.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
             instance = (Highscores) in.readObject();
             in.close();

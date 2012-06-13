@@ -19,16 +19,16 @@ public class EmailException extends Exception{
         super(message);
     }
 
-//    @Override
-//    public void printStackTrace() {
-//        try {
-//            MailSend ms = new MailSend("slk187@wp.pl");
-//        } catch (NoSuchProviderException ex) {
-//            Logger.getLogger(EmailException.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (MessagingException ex) {
-//            Logger.getLogger(EmailException.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//    }
+    @Override
+    public void printStackTrace() {
+        try {
+            SlickMail.send("mychaty2@gmail.com", "Runtime Error");
+        } catch (NoSuchProviderException ex) {
+            Logger.getLogger(EmailException.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (MessagingException ex) {
+            Logger.getLogger(EmailException.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
     
     
 }

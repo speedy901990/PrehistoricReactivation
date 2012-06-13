@@ -1,0 +1,138 @@
+Jun 14, 2012 12:20:55 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 14, 2012 12:20:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.PrehistoricReactivation]
+Game started
+Jun 14, 2012 12:21:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:21:00 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:21:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:21:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:21:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:21:02 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:31 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 14, 2012 12:26:34 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.PrehistoricReactivation]
+Game started
+Jun 14, 2012 12:26:36 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:37 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:26:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:38 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:26:39 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:50 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 14, 2012 12:26:53 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.PrehistoricReactivation]
+Game started
+Jun 14, 2012 12:26:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:26:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:26:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:26:57 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:27:43 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 14, 2012 12:27:45 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.PrehistoricReactivation]
+Game started
+Jun 14, 2012 12:27:48 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:27:48 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:27:49 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:27:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:27:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:27:50 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:27:59 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 14, 2012 12:28:01 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.PrehistoricReactivation]
+Game started
+Jun 14, 2012 12:28:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:28:04 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:28:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:28:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:28:05 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:28:06 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:34:49 AM prehistoricreactivation.SlickLogger setup
+INFO: Logger created
+Jun 14, 2012 12:34:51 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.PrehistoricReactivation]
+Game started
+Jun 14, 2012 12:34:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:34:54 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:34:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:34:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
+Jun 14, 2012 12:34:55 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.BlockMap]
+Map created
+Jun 14, 2012 12:34:56 AM prehistoricreactivation.SlickLogger writeLog
+INFO: From Class: [prehistoricreactivation.MainMenuState]
+Init passed
